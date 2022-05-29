@@ -97,6 +97,7 @@
             <version>5.3.9</version>
         </dependency>
 
+<!--embeded redis for test-->
 		<dependency>
 			<groupId>it.ozimov</groupId>
 			<artifactId>embedded-redis</artifactId>
@@ -104,8 +105,17 @@
 			<scope>test</scope>
 		</dependency>
 
-
-
+<!--swagger dependency-->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.6.1</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.6.1</version>
+		</dependency>
     </dependencies>
 	<dependencyManagement>
 		<dependencies>
